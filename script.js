@@ -11,6 +11,17 @@ $(function () {
     });
 });
 
+// video placeholder
+var video =
+document.getElementById('video');
+video.addEventListener('click', function(){
+    video.play();
+},false);
+
+// It is very usually that user touch screen  ...
+
+
+
 // hero curtain scroll
 //$(document).scroll(function(){
 //    if ($(document).scrollTop() > 320 ) {
