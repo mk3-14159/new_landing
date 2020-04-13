@@ -6,7 +6,7 @@
 .navbar .nav-link {
   color: #fff;
   font-family: sans-serif;
-  font-size: 18px
+  font-size: 20px
   
 }
 
@@ -71,7 +71,6 @@ animation:rainbow 5s infinite;
 
 /* navbar stroke */
 
-.navbar .nav-link
 
 
 /*navbar stroke end*/
@@ -147,14 +146,14 @@ header {
     left: 0;
     height: 120%;
     width: 100%;
-    background-color: rgb(28, 29, 31);
+    background-color: rgb(29, 2, 19);
     opacity: 0.5;
     z-index: 1;
   }
 
-  h1 .container{
+  p .container{
     display: block;
-    font-size: 100em;
+    font-size: 400em;
     margin-top: 0.67em;
     margin-bottom: 0.67em;
     margin-left: 0;
@@ -163,9 +162,6 @@ header {
     
   }
 
-  
-
-  
   @media (pointer: coarse) and (hover: none) {
     header {
       background: url('assets/background_landing.mp4') black no-repeat center center scroll;
@@ -174,3 +170,59 @@ header {
       display: none;
     }
   }
+
+  
+/* partner section */
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .footer_main {
+      padding: 0px 0px 50px 0px;
+    }
+  }
+  
+ 
+  
+  .trustlogos {
+    content: url(assets/gartnerblackstone.png);
+    margin: 10px auto;
+    max-width: 100%;
+  }
+  
+  .trust_top {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .trust_top p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(0, 0, 0, 0.5);
+  }
+  /* partner section */
+
+  /*footer css */
+  .footer-text small{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+  /*footer end */
+
+  /* hero curtain*/
+  /*.active {
+    position:relative;
+   /* margin-top:-111px;
+    margin-top:-6%;
+    margin-top:-118px;
+    height:900px;
+  }
+
+  .activetwo {
+    height:10px;
+    position:absolute;
+  }
+  */
+  
+  /* hero curtain end*/
